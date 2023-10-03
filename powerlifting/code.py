@@ -23,3 +23,8 @@ df_13 = pd.read_csv("https://github.com/thecyberdragon/data-analysis/tree/main/p
 # Combine dataframes back together
 df = pd.concat([df_01, df_02, df_03, df_04, df_05, df_06, df_07, df_08, df_09, df_10, df_11, df_12, df_13])
 
+# Check out the first 10 rows
+print(df.head(10))
+
+
+
